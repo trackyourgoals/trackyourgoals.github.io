@@ -26,9 +26,9 @@
     });
 
     // offcanvas script from Bootstrap + added element to close menu on click in small viewport
-    $('[data-toggle="offcanvas"], .navbar-nav li a:not(.dropdown-toggle').on('click', function () {
-        $('.offcanvas-collapse').toggleClass('open')
-    })
+    //$('[data-toggle="offcanvas"], .navbar-nav li a:not(.dropdown-toggle').on('click', function () {
+    //    $('.offcanvas-collapse').toggleClass('open')
+    //})
 
     // hover in desktop mode
     function toggleDropdown (e) {
