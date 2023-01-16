@@ -4,33 +4,36 @@ const doUserLogIn = async function () {
 	const passwordValue = document.getElementById('password').value;
 	return await Parse.User.logIn(usernameValue, passwordValue)
 	  .then(async (loggedInUser) => {
-		console.log(
-		  'Success!' + 
-		  'User '+ loggedInUser.get('username') + 'has successfully signed in!',
-		);
 		const currentUser = await Parse.User.currentAsync();
 		if(loggedInUser === currentUser){
-            retrieveGoals();
+            window.location.href="./calendar.html";
         }
 		return true;
 	  })
 	  .catch((error) => {
-		// Error can be caused by wrong parameters or lack of Internet connection
-		alert('Error!', error.message);
+		console.log('Error! '+ error.message);
 		return false;
 	  });
   };
 
 async function retrieveGoals() {
-	const query = new Parse.Query("Goal");
-    var user = Parse.User.current(); 
-    console.log(user);
+	const taskQuery = new Parse.Query("Task");
+    var user = Parse.User.current();
 	try {
-		const person = await query.find();
-		$.each(person, function (r) {
-			$("#subscription").append("<tr><td>" + person[r].id + "</td><td>" + person[r].attributes.email + "</td><td>" + person[r].attributes.createdAt + "</td><td>" + person[r].attributes.updatedAt + "</td></tr>");
+		const tasks = await taskQuery.find();
+		var jsonArr = [];
+		$.each(tasks, function (r) {
+			jsonArr.push({
+				title : tasks[r].attributes.ename,
+				description : tasks[r].attributes.edesc,
+				start : tasks[r].attributes.edate,
+				end : tasks[r].attributes.eedate,
+				className : tasks[r].attributes.ecolor,
+				icon : tasks[r].attributes.eicon
+			});
 		});
+		return jsonArr;
 	} catch (error) {
-		alert(`Failed to retrieve the object, with error code: ${error.message}`);
+		console.log('Failed to retrieve the object, with error code: ' + error.message);
 	}
 }
