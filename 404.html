@@ -3,7 +3,16 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Watchingeagle</title>
+	<title>GoalKeeper - Home</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description"
+		content="GoalKeeper : Track your goals to achieve them in an efficient, time bound and priority.">
+	<meta name="author" content="GoalKeeper : A Product of Watching Eagle ">
+	<meta name="generator" content="GoalKeeper : A Product of Watching Eagle HTML Template v1.0">
+	<!-- theme meta -->
+	<meta name="theme-name" content="GoalKeeper : A Product of Warching Eagle" />
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Google tag (gtag.js) -->
 	<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-C71VD6SMMT"></script>
@@ -13,18 +22,22 @@
 		gtag('js', new Date());
 		gtag('config', 'G-C71VD6SMMT');
 	</script>
-	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
 		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-	<!--Fontawesome CDN-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+		crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
 		integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
-	<!--Custom styles-->
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+	<script>
+		Parse.initialize("zkZGGaAmIcLzfLbA85KkgAwXggfN4LvJf77lOsOd", "dKTbuvMMrDXROKE4c0Y9zM5gczmFXAkdhFfGBiLk");
+		Parse.serverURL = "https://parseapi.back4app.com/";
+	</script>
+	<script type="text/javascript" src="./js/scripts.js"></script>
 </head>
 
 <body>
@@ -33,11 +46,11 @@
 			<div class="card">
 				<div class="card-header">
 					<h3>Sign In</h3>
-					<div class="d-flex justify-content-end social_icon">
+					<!--div class="d-flex justify-content-end social_icon">
 						<span><i class="fab fa-facebook-square"></i></span>
 						<span><i class="fab fa-google-plus-square"></i></span>
 						<span><i class="fab fa-twitter-square"></i></span>
-					</div>
+					</div-->
 				</div>
 				<div class="card-body">
 					<form>
@@ -45,31 +58,31 @@
 							<div class="input-group-prepend">
 								<span class="input-group-text"><i class="fas fa-user"></i></span>
 							</div>
-							<input type="text" class="form-control" placeholder="username">
-
+							<input type="text" class="form-control" placeholder="username" id="username">
 						</div>
 						<div class="input-group form-group">
 							<div class="input-group-prepend">
 								<span class="input-group-text"><i class="fas fa-key"></i></span>
 							</div>
-							<input type="password" class="form-control" placeholder="password">
+							<input type="password" class="form-control" placeholder="password" id="password">
 						</div>
-						<div class="row align-items-center remember">
+						<!--div class="row align-items-center remember">
 							<input type="checkbox">Remember Me
-						</div>
+						</div-->
 						<div class="form-group">
-							<input type="submit" value="Login" class="btn float-right login_btn">
+							<input type="button" value="Login" class="btn float-right login_btn"
+								onclick="doUserLogIn()">
 						</div>
 					</form>
 				</div>
-				<div class="card-footer">
+				<!--div class="card-footer">
 					<div class="d-flex justify-content-center links">
 						Don't have an account?<a href="#">Sign Up</a>
 					</div>
 					<div class="d-flex justify-content-center">
 						<a href="#">Forgot your password?</a>
 					</div>
-				</div>
+				</div-->
 			</div>
 		</div>
 	</div>

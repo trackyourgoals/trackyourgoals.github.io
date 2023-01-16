@@ -1,0 +1,122 @@
+<htm>
+
+    <head>
+        <meta charset="utf-8">
+        <title>GoalKeeper - Calendar</title>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description"
+            content="GoalKeeper : Track your goals to achieve them in an efficient, time bound and priority.">
+        <meta name="author" content="GoalKeeper : A Product of Watching Eagle ">
+        <meta name="generator" content="GoalKeeper : A Product of Watching Eagle HTML Template v1.0">
+        <!-- theme meta -->
+        <meta name="theme-name" content="GoalKeeper : A Product of Warching Eagle" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Google tag (gtag.js) -->
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-C71VD6SMMT"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'G-C71VD6SMMT');
+        </script>
+        <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet"
+            type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap"
+            rel="stylesheet" type="text/css" />
+
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet"
+            type="text/css" />
+        <link href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css"
+            rel="stylesheet" type="text/css" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/air-datepicker/2.2.3/css/datepicker.css" rel="stylesheet"
+            type="text/css" />
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/air-datepicker/2.2.3/js/datepicker.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/air-datepicker/2.2.3/js/i18n/datepicker.en.js"></script>
+        <script src="./js/calendar.js"></script>
+        <link href="./css/calendar.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+        <script>
+            Parse.initialize("zkZGGaAmIcLzfLbA85KkgAwXggfN4LvJf77lOsOd", "dKTbuvMMrDXROKE4c0Y9zM5gczmFXAkdhFfGBiLk");
+            Parse.serverURL = "https://parseapi.back4app.com/";
+        </script>
+    </head>
+</htm>
+<div class="p-5">
+    <h2 class="mb-4">Schedule Admin</h2>
+    <div class="card">
+        <div class="card-body p-0">
+            <div id="calendar"></div>
+        </div>
+    </div>
+</div>
+
+<!-- calendar modal -->
+<div id="modal-view-event" class="modal modal-top fade calendar-modal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <h4 class="modal-title"><span class="event-icon"></span><span class="event-title"></span></h4>
+                <div class="event-body"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="modal-view-event-add" class="modal modal-top fade calendar-modal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <form id="add-event">
+                <div class="modal-body">
+                    <h4>Add Task Detail</h4>
+                    <div class="form-group">
+                        <label>Task name</label>
+                        <input type="text" class="form-control" name="ename">
+                    </div>
+                    <div class="form-group">
+                        <label>Task Date</label>
+                        <input type='text' class="datetimepicker form-control" name="edate">
+                    </div>
+                    <div class="form-group">
+                        <label>Task Description</label>
+                        <textarea class="form-control" name="edesc"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Task Color</label>
+                        <select class="form-control" name="ecolor">
+                            <option value="fc-bg-default">fc-bg-default</option>
+                            <option value="fc-bg-blue">fc-bg-blue</option>
+                            <option value="fc-bg-lightgreen">fc-bg-lightgreen</option>
+                            <option value="fc-bg-pinkred">fc-bg-pinkred</option>
+                            <option value="fc-bg-deepskyblue">fc-bg-deepskyblue</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Task Icon</label>
+                        <select class="form-control" name="eicon">
+                            <option value="circle">circle</option>
+                            <option value="cog">cog</option>
+                            <option value="group">group</option>
+                            <option value="suitcase">suitcase</option>
+                            <option value="calendar">calendar</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" onclick="saveNewTask()">Save</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
