@@ -3,11 +3,15 @@
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
 html,body{
-background-image: url('./../images/login.jpg');
+
 background-size: cover;
 background-repeat: no-repeat;
 height: 100%;
 font-family: 'Numans', sans-serif;
+}
+
+.loginpage{
+    background-image: url('./../images/login.jpg');
 }
 
 .container{
