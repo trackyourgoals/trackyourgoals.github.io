@@ -29,7 +29,8 @@ async function retrieveGoals() {
 				start : tasks[r].attributes.edate,
 				end : tasks[r].attributes.eedate,
 				className : tasks[r].attributes.ecolor,
-				icon : tasks[r].attributes.eicon
+				icon : tasks[r].attributes.eicon,
+				status : tasks[r].attributes.estatus
 			});
 		});
 		return jsonArr;
