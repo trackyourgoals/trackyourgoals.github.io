@@ -60,6 +60,7 @@ jQuery(document).ready(function () {
 				jQuery('.event-title').html(event.title);
 				jQuery('.event-body').html(event.description);
 				jQuery('.eventUrl').attr('href', event.url);
+				jQuery('.eventStatus').html(event.status);
 				jQuery('#modal-view-event').modal();
 			},
 		})
@@ -86,6 +87,7 @@ async function saveNewTask() {
 	tasks.set("edesc", values['edesc']);
 	tasks.set("eicon", values['eicon']);
 	tasks.set("ename", values['ename']);
+	tasks.set("estatus", "Not Started");
 	var user = Parse.User.current();
 	tasks.set("userId", user.id);
    	tasks.setACL(new Parse.ACL(user));
