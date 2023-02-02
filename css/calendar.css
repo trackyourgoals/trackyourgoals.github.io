@@ -26,6 +26,11 @@ body .fc {
   background: #8fdf82;
   opacity: .3; }
 
+.fc-bg-pinkred {
+  /* default look for background events */
+  background: #ff6066;
+  opacity: .3; }
+
 .fc-nonbusiness {
   /* default look for non-business-hours areas */
   /* will inherit .fc-bgevent's styles */
