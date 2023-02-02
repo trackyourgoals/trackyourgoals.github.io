@@ -60,7 +60,7 @@ jQuery(document).ready(function () {
 				jQuery('.event-title').html(event.title);
 				jQuery('.event-body').html(event.description);
 				jQuery('.eventUrl').attr('href', event.url);
-				jQuery('.event-Status').html(event.status);
+				jQuery('.event-status').html(event.status);
 				jQuery('#modal-view-event').modal();
 			},
 		})
