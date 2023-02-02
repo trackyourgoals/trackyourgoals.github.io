@@ -26,11 +26,6 @@ body .fc {
   background: #8fdf82;
   opacity: .3; }
 
-.fc-bg-pinkred {
-  /* default look for background events */
-  background: #ff6066;
-  opacity: .3; }
-
 .fc-nonbusiness {
   /* default look for non-business-hours areas */
   /* will inherit .fc-bgevent's styles */
@@ -361,6 +356,37 @@ temporary rendered events).
   color: #5d5386;
   position: relative;
   /* default BACKGROUND color */ }
+
+  .fc-bg-default {
+    /* default look for background events */
+    background-color: #ffffff;
+    color: #5d5386;
+    position: relative; }
+  
+  .fc-bg-blue {
+    /* default look for background events */
+    background-color: #0000ff;
+    color: #5d5386;
+    position: relative; }
+  
+  .fc-bg-lightgreen {
+    /* default look for background events */
+    background-color: #90ee90;
+    color: #5d5386;
+    position: relative; }
+  
+  .fc-bg-pinkred {
+    /* default look for background events */
+    background-color: #ff6066;
+    color: #5d5386;
+    position: relative; }
+  
+  .fc-bg-deepskyblue {
+    /* default look for background events */
+    background-color: #00bfff;
+    color: #5d5386;
+    position: relative; }
+
 .fc-event:before,
 .fc-event-dot:before{
     content: "";
