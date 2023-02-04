@@ -38,10 +38,3 @@ async function retrieveGoals() {
 		console.log('Failed to retrieve the object, with error code: ' + error.message);
 	}
 }
-
-function getCurrentDate(){
-	var date = new Date();
-	var n = date.toDateString();
-	var time = date.toLocaleTimeString();
-	document.getElementById('time').innerHTML = n;
-}

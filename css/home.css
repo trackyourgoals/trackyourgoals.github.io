@@ -30,3 +30,7 @@
 .card-body{
     padding: 0.5rem;
 }
+
+.col-md-12 {
+  overflow-x: auto;
+}
