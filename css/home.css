@@ -4,7 +4,6 @@
   border-radius: 2em;
   text-align: center;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  background-color: rgba(249,248,253,255) !important;
 }
 .card img {
   width: 45%;
@@ -33,4 +32,12 @@
 
 .col-md-12 {
   overflow-x: auto;
+}
+
+.fc-bg-pinkred{
+  background-color: pink;
+}
+
+.fc-bg-default{
+  background-color: rgba(249,248,253,255) !important;
 }
