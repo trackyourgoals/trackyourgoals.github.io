@@ -35,7 +35,19 @@
 }
 
 .fc-bg-pinkred{
-  background-color: pink;
+  background-color: #ff6066;
+}
+
+.fc-bg-deepskyblue{
+  background-color: #00bfff;
+}
+
+.fc-bg-lightgreen{
+  background-color: #90ee90;
+}
+
+.fc-bg-blue{
+  background-color: #0000ff;
 }
 
 .fc-bg-default{
