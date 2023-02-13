@@ -1,0 +1,219 @@
+{
+    "events": [
+        {
+            "name": "Jaya Ekadashi",
+            "date": "February 1, 2023, Wednesday",
+            "tithi": "Magha, Shukla Ekadashi"
+        },
+        {
+            "name": "Bhishma Dwadashi",
+            "date": "February 1, 2023, Wednesday",
+            "tithi": "Magha, Shukla Dwadashi"
+        },
+        {
+            "name": "Pradosh Vrat",
+            "date": "February 2, 2023, Thursday",
+            "tithi": "Magha, Shukla Trayodashi"
+        },
+        {
+            "name": "World Cancer Day",
+            "date": "February 4, 2023, Saturday",
+            "tithi": "fixed day in Gregorian calendar"
+        },
+        {
+            "name": "Guru Ravidas Jayanti",
+            "date": "February 5, 2023, Sunday",
+            "tithi": "Magha, Shukla Purnima"
+        },
+        {
+            "name": "Thai Pusam",
+            "date": "February 5, 2023, Sunday",
+            "tithi": "based on Tamil calendar"
+        },
+        {
+            "name": "Lalita Jayanti",
+            "date": "February 5, 2023, Sunday",
+            "tithi": ""
+        },
+        {
+            "name": "Magha Purnima Vrat",
+            "date": "February 5, 2023, Sunday",
+            "tithi": "Magha, Shukla Purnima"
+        },
+        {
+            "name": "Magha Purnima",
+            "date": "February 5, 2023, Sunday",
+            "tithi": "Magha, Shukla Purnima"
+        },
+        {
+            "name": "Anvadhan",
+            "date": "February 5, 2023, Sunday",
+            "tithi": "Magha, Shukla Chaturdashi"
+        },
+        {
+            "name": "Phalguna Begins *North",
+            "date": "February 6, 2023, Monday",
+            "tithi": "Chaitra, Krishna Pratipada"
+        },
+        {
+            "name": "Ishti",
+            "date": "February 6, 2023, Monday",
+            "tithi": "Magha, Shukla Purnima"
+        },
+        {
+            "name": "Dwijapriya Sankashti Chaturthi",
+            "date": "February 9, 2023, Thursday",
+            "tithi": "Phalguna, Krishna Chaturthi"
+        },
+        {
+            "name": "Yashoda Jayanti",
+            "date": "February 12, 2023, Sunday",
+            "tithi": "Phalguna, Krishna Shashthi"
+        },
+        {
+            "name": "Shabari Jayanti",
+            "date": "February 13, 2023, Monday",
+            "tithi": "Phalguna, Krishna Saptami"
+        },
+        {
+            "name": "Kumbha Sankranti",
+            "date": "February 13, 2023, Monday",
+            "tithi": "Makara to Kumbha transit of Sun"
+        },
+        {
+            "name": "Kalashtami",
+            "date": "February 13, 2023, Monday",
+            "tithi": "Phalguna, Krishna Ashtami"
+        },
+        {
+            "name": "Masik Krishna Janmashtami",
+            "date": "February 13, 2023, Monday",
+            "tithi": "Phalguna, Krishna Ashtami"
+        },
+        {
+            "name": "Janaki Jayanti",
+            "date": "February 14, 2023, Tuesday",
+            "tithi": "Phalguna, Krishna Ashtami"
+        },
+        {
+            "name": "Valentine's Day",
+            "date": "February 14, 2023, Tuesday",
+            "tithi": "fixed day in Gregorian calendar"
+        },
+        {
+            "name": "Maharishi Dayanand Saraswati Jayanti",
+            "date": "February 15, 2023, Wednesday",
+            "tithi": "Phalguna, Krishna Dashami"
+        },
+        {
+            "name": "Vijaya Ekadashi",
+            "date": "February 16, 2023, Thursday",
+            "tithi": "Phalguna, Krishna Ekadashi"
+        },
+        {
+            "name": "Vaishnava Vijaya Ekadashi",
+            "date": "February 17, 2023, Friday",
+            "tithi": "Phalguna, Krishna Ekadashi"
+        },
+        {
+            "name": "Shani Trayodashi",
+            "date": "February 18, 2023, Saturday",
+            "tithi": "Phalguna, Krishna Trayodashi"
+        },
+        {
+            "name": "Maha Shivaratri",
+            "date": "February 18, 2023, Saturday",
+            "tithi": "Phalguna, Krishna Chaturdashi"
+        },
+        {
+            "name": "Pradosh Vrat",
+            "date": "February 18, 2023, Saturday",
+            "tithi": "Phalguna, Krishna Trayodashi"
+        },
+        {
+            "name": "Masik Shivaratri",
+            "date": "February 18, 2023, Saturday",
+            "tithi": "Phalguna, Krishna Chaturdashi"
+        },
+        {
+            "name": "Darsha Amavasya",
+            "date": "February 19, 2023, Sunday",
+            "tithi": "Phalguna, Krishna Amavasya"
+        },
+        {
+            "name": "Anvadhan",
+            "date": "February 19, 2023, Sunday",
+            "tithi": "Phalguna, Krishna Chaturdashi"
+        },
+        {
+            "name": "Dwapara Yuga",
+            "date": "February 19, 2023, Sunday",
+            "tithi": "Phalguna, Krishna Amavasya"
+        },
+        {
+            "name": "Somavati Amavasya",
+            "date": "February 20, 2023, Monday",
+            "tithi": "Phalguna, Krishna Amavasya"
+        },
+        {
+            "name": "Ishti",
+            "date": "February 20, 2023, Monday",
+            "tithi": "Phalguna, Krishna Amavasya"
+        },
+        {
+            "name": "Phalguna Amavasya",
+            "date": "February 20, 2023, Monday",
+            "tithi": "Chaitra, Krishna Amavasya"
+        },
+        {
+            "name": "Phulera Dooj",
+            "date": "February 21, 2023, Tuesday",
+            "tithi": "Phalguna, Shukla Dwitiya"
+        },
+        {
+            "name": "Ramakrishna Jayanti",
+            "date": "February 21, 2023, Tuesday",
+            "tithi": "Phalguna, Shukla Dwitiya"
+        },
+        {
+            "name": "Chandra Darshana",
+            "date": "February 21, 2023, Tuesday",
+            "tithi": "Phalguna, Shukla Pratipada"
+        },
+        {
+            "name": "Vinayaka Chaturthi",
+            "date": "February 23, 2023, Thursday",
+            "tithi": "Phalguna, Shukla Chaturthi"
+        },
+        {
+            "name": "Skanda Sashti",
+            "date": "February 25, 2023, Saturday",
+            "tithi": "Phalguna, Shukla Shashthi"
+        },
+        {
+            "name": "Bhanu Saptami",
+            "date": "February 26, 2023, Sunday",
+            "tithi": "Phalguna, Shukla Saptami"
+        },
+        {
+            "name": "Masik Karthigai",
+            "date": "February 26, 2023, Sunday",
+            "tithi": "based on Solar calendar"
+        },
+        {
+            "name": "Phalguna Ashtahnika Begins",
+            "date": "February 26, 2023, Sunday",
+            "tithi": "based on Jain calendar"
+        },
+        {
+            "name": "Rohini Vrat",
+            "date": "February 27, 2023, Monday",
+            "tithi": "based on Jain calendar"
+        },
+        {
+            "name": "Masik Durgashtami",
+            "date": "February 27, 2023, Monday",
+            "tithi": "Phalguna, Shukla Ashtami"
+        }
+    ]
+}
