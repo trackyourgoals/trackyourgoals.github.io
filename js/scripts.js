@@ -38,3 +38,10 @@ async function retrieveGoals() {
 		console.log('Failed to retrieve the object, with error code: ' + error.message);
 	}
 }
+
+const checkLoggedInUser = async function() {
+	const currentUser = await Parse.User.currentAsync();
+	if(currentUser!=null){
+		window.location.href="./home.html";
+	}
+}
