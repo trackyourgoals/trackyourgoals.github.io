@@ -104,9 +104,9 @@
         }
 
         .fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
+            background: #007bb5;
+            color: white;
+        }
     </style>
 
 
@@ -122,14 +122,14 @@
             <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://watchingeagle.com/buddhasummit.html"
                 target="_blank" rel="noopener noreferrer" style="margin-left: 10px;" class="fa fa-linkedin">
             </a>
-            <a href="https://www.facebook.com/sharer/sharer.php?u=https://watchingeagle.com/buddhasummit.html" target="_blank"
-                rel="noopener noreferrer" style="margin-left: 10px;" class="fa fa-facebook">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://watchingeagle.com/buddhasummit.html"
+                target="_blank" rel="noopener noreferrer" style="margin-left: 10px;" class="fa fa-facebook">
             </a>
-            <a href="whatsapp://send?text=https://watchingeagle.com/buddhasummit.html" data-action="share/whatsapp/share"
-                target="_blank" rel="noopener noreferrer" class="fa fa-whatsapp">
+            <a href="whatsapp://send?text=https://watchingeagle.com/buddhasummit.html"
+                data-action="share/whatsapp/share" target="_blank" rel="noopener noreferrer" class="fa fa-whatsapp">
             </a>
-            <span onclick="copyText('https://watchingeagle.com/buddhasummit.html')" style="cursor: pointer;margin-left: 10px;" 
-            class="fa fa-clipboard"></span>
+            <span onclick="copyText('https://watchingeagle.com/buddhasummit.html')"
+                style="cursor: pointer;margin-left: 10px;" class="fa fa-clipboard"></span>
         </li>
     </ul>
     <div id="adobe-dc-view"></div>
@@ -201,6 +201,11 @@
             );
 
         });
+
+        function copyText(text) {
+            navigator.clipboard.writeText(text);
+            alert('URL copied to clipboard');
+        }
     </script>
 </body>
 
