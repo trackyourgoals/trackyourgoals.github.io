@@ -8,7 +8,8 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <meta name="description" content="Watching Eagle : Track your goals to achieve them in an efficient, time bound and with priority.">
+    <meta name="description"
+        content="Watching Eagle : Track your goals to achieve them in an efficient, time bound and with priority.">
     <meta name="author" content="Watching Eagle">
     <meta name="generator" content="Watching Eagle HTML Template v1.0">
     <meta name="theme-name" content="Warching Eagle" />
@@ -25,13 +26,13 @@
         gtag('config', 'G-C71VD6SMMT');
     </script>
 
-    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
-	<script>
-		Parse.initialize("zkZGGaAmIcLzfLbA85KkgAwXggfN4LvJf77lOsOd", "dKTbuvMMrDXROKE4c0Y9zM5gczmFXAkdhFfGBiLk");
-		Parse.serverURL = "https://parseapi.back4app.com/";
-	</script>
+    <script>
+        Parse.initialize("zkZGGaAmIcLzfLbA85KkgAwXggfN4LvJf77lOsOd", "dKTbuvMMrDXROKE4c0Y9zM5gczmFXAkdhFfGBiLk");
+        Parse.serverURL = "https://parseapi.back4app.com/";
+    </script>
     <style>
         .bd-placeholder-img {
             font-size: 1.125rem;
@@ -83,6 +84,29 @@
             white-space: nowrap;
             -webkit-overflow-scrolling: touch;
         }
+
+        .fa {
+            padding: 10px;
+            font-size: 15px;
+            width: 15px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+        }
+
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
     </style>
 
 
@@ -92,78 +116,93 @@
 </head>
 
 <body style="margin: 0px">
-   <div id="adobe-dc-view"></div>
-   <script src="https://documentservices.adobe.com/view-sdk/viewer.js"></script>
-   <script type="text/javascript">
-      document.addEventListener("adobe_dc_view_sdk.ready", function()
-      {
-          var adobeDCView = new AdobeDC.View({clientId: "8ca75a2a9dfb4f07a043cabf50c2203c", divId: "adobe-dc-view"});
-          adobeDCView.previewFile(
-         {
-            content:   {location: {url: "https://watchingeagle.com/d/p/b/2023_Gaya_Summit_Learning_Through_Buddha.pdf"}},
-            metaData: {fileName: "2023 Gaya Summit Learning Through Buddha.pdf"}
-         });
+    <ul class="list-inline">
+        <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light">
+            Share on:
+            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://watchingeagle.com/buddhasummit.html"
+                target="_blank" rel="noopener noreferrer" style="margin-left: 10px;" class="fa fa-linkedin">
+            </a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://watchingeagle.com/buddhasummit.html" target="_blank"
+                rel="noopener noreferrer" style="margin-left: 10px;" class="fa fa-facebook">
+            </a>
+            <a href="whatsapp://send?text=https://watchingeagle.com/buddhasummit.html" data-action="share/whatsapp/share"
+                target="_blank" rel="noopener noreferrer" class="fa fa-whatsapp">
+            </a>
+            <span onclick="copyText('https://watchingeagle.com/buddhasummit.html')" style="cursor: pointer;margin-left: 10px;" 
+            class="fa fa-clipboard"></span>
+        </li>
+    </ul>
+    <div id="adobe-dc-view"></div>
+    <script src="https://documentservices.adobe.com/view-sdk/viewer.js"></script>
+    <script type="text/javascript">
+        document.addEventListener("adobe_dc_view_sdk.ready", function () {
+            var adobeDCView = new AdobeDC.View({ clientId: "8ca75a2a9dfb4f07a043cabf50c2203c", divId: "adobe-dc-view" });
+            adobeDCView.previewFile(
+                {
+                    content: { location: { url: "https://watchingeagle.com/d/p/b/2023_Gaya_Summit_Learning_Through_Buddha.pdf" } },
+                    metaData: { fileName: "2023 Gaya Summit Learning Through Buddha.pdf" }
+                });
 
-         adobeDCView.registerCallback(
-        /* Type of call back */
-        AdobeDC.View.Enum.CallbackType.EVENT_LISTENER,
-        /* call back function */
-        function(event) {
-            switch(event.type) {
-                case "APP_RENDERING_START":
-                console.log("Loading View SDK...")
-                console.log(event);
-                break;
-                case "APP_RENDERING_DONE":
-                console.log("Loading Done.")
-                console.log(event);
-                break;
-                case "DOCUMENT_OPEN":
-                console.log("Opened document.")
-                console.log(event);
-                break;
-                case "PAGE_VIEW":
-                console.log("Viewing page "+event.data.pageNumber+" of "+event.data.fileName)
-                console.log(event);
-                break;
-                case "BOOKMARK_ITEM_CLICK":
-                console.log("Clicked bookmark.")
-                console.log(event);
-                break;
-                case "DOCUMENT_DOWNLOAD":
-                console.log("Downloading document "+event.data.fileName);
-                console.log(event);
-                break;
-                case "DOCUMENT_PRINT":
-                console.log("Printing document "+event.data.fileName);
-                console.log(event);
-                break;
-                case "HYPERLINK_OPEN":
-                console.log("Clicked on hyperlink "+event.data.fileName);
-                console.log(event);
-                break;
-                case "TEXT_COPY":
-                console.log("Copied text: '"+event.data.copiedText+"'");
-                console.log(event);    
-                break;
-                case "TEXT_SEARCH":
-                console.log("Searched for text: "+event.data.searchedText);
-                console.log(event);    
-                break;
-                case "ZOOM_LEVEL":
-                console.log("Change zoom level to "+event.data.zoomLevel)
-                console.log(event);
-                break;
-            }
-        },
-        {
-            enablePDFAnalytics: true,
-        }
-        );
+            adobeDCView.registerCallback(
+                /* Type of call back */
+                AdobeDC.View.Enum.CallbackType.EVENT_LISTENER,
+                /* call back function */
+                function (event) {
+                    switch (event.type) {
+                        case "APP_RENDERING_START":
+                            console.log("Loading View SDK...")
+                            console.log(event);
+                            break;
+                        case "APP_RENDERING_DONE":
+                            console.log("Loading Done.")
+                            console.log(event);
+                            break;
+                        case "DOCUMENT_OPEN":
+                            console.log("Opened document.")
+                            console.log(event);
+                            break;
+                        case "PAGE_VIEW":
+                            console.log("Viewing page " + event.data.pageNumber + " of " + event.data.fileName)
+                            console.log(event);
+                            break;
+                        case "BOOKMARK_ITEM_CLICK":
+                            console.log("Clicked bookmark.")
+                            console.log(event);
+                            break;
+                        case "DOCUMENT_DOWNLOAD":
+                            console.log("Downloading document " + event.data.fileName);
+                            console.log(event);
+                            break;
+                        case "DOCUMENT_PRINT":
+                            console.log("Printing document " + event.data.fileName);
+                            console.log(event);
+                            break;
+                        case "HYPERLINK_OPEN":
+                            console.log("Clicked on hyperlink " + event.data.fileName);
+                            console.log(event);
+                            break;
+                        case "TEXT_COPY":
+                            console.log("Copied text: '" + event.data.copiedText + "'");
+                            console.log(event);
+                            break;
+                        case "TEXT_SEARCH":
+                            console.log("Searched for text: " + event.data.searchedText);
+                            console.log(event);
+                            break;
+                        case "ZOOM_LEVEL":
+                            console.log("Change zoom level to " + event.data.zoomLevel)
+                            console.log(event);
+                            break;
+                    }
+                },
+                {
+                    enablePDFAnalytics: true,
+                }
+            );
 
-      });
-   </script>
-  </body>
-  
+        });
+    </script>
+</body>
+
 
 </html>
