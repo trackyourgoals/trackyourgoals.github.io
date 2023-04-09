@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Watching Eagle - Pricing</title>
+    <title>Watching Eagle - Buddha Summit</title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -101,6 +101,64 @@
             content:   {location: {url: "https://watchingeagle.com/d/p/b/2023_Gaya_Summit_Learning_Through_Buddha.pdf"}},
             metaData: {fileName: "2023 Gaya Summit Learning Through Buddha.pdf"}
          });
+
+         adobeDCView.registerCallback(
+        /* Type of call back */
+        AdobeDC.View.Enum.CallbackType.EVENT_LISTENER,
+        /* call back function */
+        function(event) {
+            switch(event.type) {
+                case "APP_RENDERING_START":
+                console.log("Loading View SDK...")
+                console.log(event);
+                break;
+                case "APP_RENDERING_DONE":
+                console.log("Loading Done.")
+                console.log(event);
+                break;
+                case "DOCUMENT_OPEN":
+                console.log("Opened document.")
+                console.log(event);
+                break;
+                case "PAGE_VIEW":
+                console.log("Viewing page "+event.data.pageNumber+" of "+event.data.fileName)
+                console.log(event);
+                break;
+                case "BOOKMARK_ITEM_CLICK":
+                console.log("Clicked bookmark.")
+                console.log(event);
+                break;
+                case "DOCUMENT_DOWNLOAD":
+                console.log("Downloading document "+event.data.fileName);
+                console.log(event);
+                break;
+                case "DOCUMENT_PRINT":
+                console.log("Printing document "+event.data.fileName);
+                console.log(event);
+                break;
+                case "HYPERLINK_OPEN":
+                console.log("Clicked on hyperlink "+event.data.fileName);
+                console.log(event);
+                break;
+                case "TEXT_COPY":
+                console.log("Copied text: '"+event.data.copiedText+"'");
+                console.log(event);    
+                break;
+                case "TEXT_SEARCH":
+                console.log("Searched for text: "+event.data.searchedText);
+                console.log(event);    
+                break;
+                case "ZOOM_LEVEL":
+                console.log("Change zoom level to "+event.data.zoomLevel)
+                console.log(event);
+                break;
+            }
+        },
+        {
+            enablePDFAnalytics: true,
+        }
+        );
+        
       });
    </script>
   </body>

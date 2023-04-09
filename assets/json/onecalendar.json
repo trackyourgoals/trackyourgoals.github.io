@@ -1,0 +1,56 @@
+{
+    "year" : [
+        {
+            "name" : 2023,
+            "month" : [
+                {
+                    "name" : "February",
+                    "date" : [
+                        {
+                            "name" : "01",
+                            "day" : "Wednesday",
+                            "event" : [
+                                {
+                                    "name": "Jaya Ekadashi",
+                                    "maas" : "Magha",
+                                    "paksha" : "Shukla",
+                                    "tithi" : "Ekadashi"
+                                },
+                                {
+                                    "name": "Bhishma Dwadashi",
+                                    "maas" : "Magha",
+                                    "paksha" : "Shukla",
+                                    "tithi" : "Dwadashi"
+                                }
+                            ]
+                        },
+                        {
+                            "name" : "02",
+                            "day" : "Thursday",
+                            "event" : [
+                                {
+                                    "name": "Pradosh Vrat",
+                                    "maas" : "Magha",
+                                    "paksha" : "Shukla",
+                                    "tithi" : "Trayodashi"
+                                }
+                            ]
+                        },
+                        {
+                            "name" : "04",
+                            "day" : "Saturday",
+                            "event" : [
+                                {
+                                    "name": "World Cancer Day",
+                                    "maas" : "",
+                                    "paksha" : "",
+                                    "tithi" : ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
