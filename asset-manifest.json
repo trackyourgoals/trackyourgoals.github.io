@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.df3b6d63.css",
+    "main.js": "/static/js/main.7eef6b49.js",
+    "static/js/542.e2dd0e6d.chunk.js": "/static/js/542.e2dd0e6d.chunk.js",
+    "static/js/565.96e0d6bf.chunk.js": "/static/js/565.96e0d6bf.chunk.js",
+    "static/js/603.e72625b1.chunk.js": "/static/js/603.e72625b1.chunk.js",
+    "static/js/801.b544114e.chunk.js": "/static/js/801.b544114e.chunk.js",
+    "static/js/573.c9eec5b9.chunk.js": "/static/js/573.c9eec5b9.chunk.js",
+    "static/js/271.4e8b51cb.chunk.js": "/static/js/271.4e8b51cb.chunk.js",
+    "static/js/43.fbce1409.chunk.js": "/static/js/43.fbce1409.chunk.js",
+    "static/js/952.4e730833.chunk.js": "/static/js/952.4e730833.chunk.js",
+    "static/js/672.16a35a64.chunk.js": "/static/js/672.16a35a64.chunk.js",
+    "static/js/264.89c47086.chunk.js": "/static/js/264.89c47086.chunk.js",
+    "static/js/275.df2fc78f.chunk.js": "/static/js/275.df2fc78f.chunk.js",
+    "static/js/731.467d8d71.chunk.js": "/static/js/731.467d8d71.chunk.js",
+    "static/js/33.b16ce711.chunk.js": "/static/js/33.b16ce711.chunk.js",
+    "static/js/317.46fe4328.chunk.js": "/static/js/317.46fe4328.chunk.js",
+    "static/media/hero-dark.png": "/static/media/hero-dark.a5d7eb1995a0997884db.png",
+    "static/media/hero-light.png": "/static/media/hero-light.c75e2048b569e6193315.png",
+    "static/media/devices-dark.png": "/static/media/devices-dark.8e0fa33289ba9494a487.png",
+    "static/media/dash-dark.png": "/static/media/dash-dark.952579681043743a7e87.png",
+    "static/media/devices-light.png": "/static/media/devices-light.d077b01ca635c127af62.png",
+    "static/media/dash-light.png": "/static/media/dash-light.6bcf3a71b21d0494382b.png",
+    "static/media/user-round.svg": "/static/media/user-round.13b5a31bebd2cc6016d6db2cac8e92d1.svg",
+    "static/media/mobile-dark.png": "/static/media/mobile-dark.00c89a89d420bf6f412a.png",
+    "static/media/mobile-light.png": "/static/media/mobile-light.398d7a6fef9d070a6c26.png",
+    "static/media/a.svg": "/static/media/a.1642cb953d2efb03b3a3a1e9fdf8c34a.svg",
+    "index.html": "/index.html",
+    "static/media/social-google.svg": "/static/media/social-google.9887eb8eb43729cb99f402cfa0de3c44.svg",
+    "static/media/earning.svg": "/static/media/earning.b019e86a7ee117bd6bb2e8cab90c0db5.svg"
+  },
+  "entrypoints": [
+    "static/css/main.df3b6d63.css",
+    "static/js/main.7eef6b49.js"
+  ]
+}
