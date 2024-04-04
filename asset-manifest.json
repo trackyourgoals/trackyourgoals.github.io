@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.df3b6d63.css",
-    "main.js": "/static/js/main.7eef6b49.js",
+    "main.js": "/static/js/main.a7bfaad8.js",
     "static/js/542.e2dd0e6d.chunk.js": "/static/js/542.e2dd0e6d.chunk.js",
     "static/js/565.96e0d6bf.chunk.js": "/static/js/565.96e0d6bf.chunk.js",
     "static/js/603.e72625b1.chunk.js": "/static/js/603.e72625b1.chunk.js",
@@ -12,10 +12,12 @@
     "static/js/952.4e730833.chunk.js": "/static/js/952.4e730833.chunk.js",
     "static/js/672.16a35a64.chunk.js": "/static/js/672.16a35a64.chunk.js",
     "static/js/264.89c47086.chunk.js": "/static/js/264.89c47086.chunk.js",
+    "static/js/930.5015abfb.chunk.js": "/static/js/930.5015abfb.chunk.js",
     "static/js/275.df2fc78f.chunk.js": "/static/js/275.df2fc78f.chunk.js",
     "static/js/731.467d8d71.chunk.js": "/static/js/731.467d8d71.chunk.js",
     "static/js/33.b16ce711.chunk.js": "/static/js/33.b16ce711.chunk.js",
     "static/js/317.46fe4328.chunk.js": "/static/js/317.46fe4328.chunk.js",
+    "static/js/185.61e1d7ae.chunk.js": "/static/js/185.61e1d7ae.chunk.js",
     "static/media/hero-dark.png": "/static/media/hero-dark.a5d7eb1995a0997884db.png",
     "static/media/hero-light.png": "/static/media/hero-light.c75e2048b569e6193315.png",
     "static/media/devices-dark.png": "/static/media/devices-dark.8e0fa33289ba9494a487.png",
@@ -32,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.df3b6d63.css",
-    "static/js/main.7eef6b49.js"
+    "static/js/main.a7bfaad8.js"
   ]
 }
