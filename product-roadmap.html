@@ -37,7 +37,7 @@
         <meta name="twitter:creator" content="@GoalKeeper-WatchingEagle" />
 
         <!-- Webpage Title -->
-        <title>US Calendar - GoalKeeper</title>
+        <title>Product Roadmap - GoalKeeper</title>
 
         <!-- Styles -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,198 +51,12 @@
 
         <!-- Favicon  -->
         <link rel="icon" href="images/favicon.png" />
-        <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.14/index.global.min.js'></script>
-        <script>
-
-            document.addEventListener('DOMContentLoaded', function() {
-                var calendarEl = document.getElementById('calendar');
-                var calendar = new FullCalendar.Calendar(calendarEl, {
-                    initialView: 'dayGridMonth',
-                    headerToolbar: {
-                        left: 'prev today',
-                        center: 'title',
-                        right: 'next'
-                    },
-                    events: [
-                        {
-                            "title": "New Year's Day",
-                            "date": "2024-01-01",
-                            "start1": "Monday, January 1, 2024",
-                            "description": "Federal",
-                            "color": "green"
-                        },
-                        {
-                            "title": "Martin Luther King Jr. Day",
-                            "date": "2024-01-15",
-                            "start1": "Monday, January 15, 2024",
-                            "description": "Federal",
-                            "color": "green"
-                        },
-                        {
-                            "title": "Washington's Birthday / Presidents Day",
-                            "date": "2024-02-19",
-                            "start1": "Monday, February 19, 2024",
-                            "description": "Federal",
-                            "color": "green"
-                        },
-                        {
-                            "title": "Memorial Day",
-                            "date": "2024-05-27",
-                            "start1": "Monday, May 27, 2024",
-                            "description": "Federal",
-                            "color": "green"
-                        },
-                        {
-                            "title": "Juneteenth National Independence Day",
-                            "date": "2024-06-19",
-                            "start1": "Wednesday, June 19, 2024",
-                            "description": "Federal",
-                            "color": "green"
-                        },
-                        {
-                            "title": "Independence Day",
-                            "date": "2024-07-04",
-                            "start1": "Thursday, July 4, 2024",
-                            "description": "Federal",
-                            "color": "green"
-                        },
-                        {
-                            "title": "Labor Day",
-                            "date": "2024-09-02",
-                            "start1": "Monday, September 2, 2024",
-                            "description": "Federal",
-                            "color": "green"
-                        },
-                        {
-                            "title": "Columbus Day",
-                            "date": "2024-10-14",
-                            "start1": "Monday, October 14, 2024",
-                            "description": "Federal",
-                            "color": "green"
-                        },
-                        {
-                            "title": "Veterans Day",
-                            "date": "2024-11-11",
-                            "start1": "Monday, November 11, 2024",
-                            "description": "Federal",
-                            "color": "green"
-                        },
-                        {
-                            "title": "Thanksgiving Day",
-                            "date": "2024-11-28",
-                            "start1": "Thursday, November 28, 2024",
-                            "description": "Federal",
-                            "color": "green"
-                        },
-                        {
-                            "title": "Christmas Day",
-                            "date": "2024-12-25",
-                            "start1": "Wednesday, December 25, 2024",
-                            "description": "Federal",
-                            "color": "green"
-                        }
-                    ]
-                });
-                calendar.render();
-
-                var calendarListEl = document.getElementById('calendarList');
-                var calendarList = new FullCalendar.Calendar(calendarListEl, {
-                    initialView: 'listMonth',
-                    headerToolbar: {
-                        left: 'prev today',
-                        center: 'title',
-                        right: 'next'
-                    },
-                    events: [
-                        {
-                            "title": "New Year's Day",
-                            "date": "2024-01-01",
-                            "start1": "Monday, January 1, 2024",
-                            "description": "Federal",
-                            "color": "green"
-                        },
-                        {
-                            "title": "Martin Luther King Jr. Day",
-                            "date": "2024-01-15",
-                            "start1": "Monday, January 15, 2024",
-                            "description": "Federal",
-                            "color": "green"
-                        },
-                        {
-                            "title": "Washington's Birthday / Presidents Day",
-                            "date": "2024-02-19",
-                            "start1": "Monday, February 19, 2024",
-                            "description": "Federal",
-                            "color": "green"
-                        },
-                        {
-                            "title": "Memorial Day",
-                            "date": "2024-05-27",
-                            "start1": "Monday, May 27, 2024",
-                            "description": "Federal",
-                            "color": "green"
-                        },
-                        {
-                            "title": "Juneteenth National Independence Day",
-                            "date": "2024-06-19",
-                            "start1": "Wednesday, June 19, 2024",
-                            "description": "Federal",
-                            "color": "green"
-                        },
-                        {
-                            "title": "Independence Day",
-                            "date": "2024-07-04",
-                            "start1": "Thursday, July 4, 2024",
-                            "description": "Federal",
-                            "color": "green"
-                        },
-                        {
-                            "title": "Labor Day",
-                            "date": "2024-09-02",
-                            "start1": "Monday, September 2, 2024",
-                            "description": "Federal",
-                            "color": "green"
-                        },
-                        {
-                            "title": "Columbus Day",
-                            "date": "2024-10-14",
-                            "start1": "Monday, October 14, 2024",
-                            "description": "Federal",
-                            "color": "green"
-                        },
-                        {
-                            "title": "Veterans Day",
-                            "date": "2024-11-11",
-                            "start1": "Monday, November 11, 2024",
-                            "description": "Federal",
-                            "color": "green"
-                        },
-                        {
-                            "title": "Thanksgiving Day",
-                            "date": "2024-11-28",
-                            "start1": "Thursday, November 28, 2024",
-                            "description": "Federal",
-                            "color": "green"
-                        },
-                        {
-                            "title": "Christmas Day",
-                            "date": "2024-12-25",
-                            "start1": "Wednesday, December 25, 2024",
-                            "description": "Federal",
-                            "color": "green"
-                        }
-                    ]
-                });
-                calendarList.render();
-            });
-
-        </script>
     </head>
     <body data-spy="scroll" data-target=".fixed-top">
-
+        
         <!-- Navigation -->
         <nav class="navbar fixed-top">
-            <div class="container flex flex-wrap items-center justify-between sm:px-4 lg:flex-nowrap lg:px-8">
+            <div class="container mx-auto flex flex-wrap items-center justify-between sm:px-4 lg:flex-nowrap lg:px-8 xl:max-w-6xl">
 
                 <!-- Text Logo - Use this if you don't have a graphic logo -->
                 <a class="text-gray-800 font-semibold text-3xl leading-4 no-underline page-scroll textLogo" href="index.html">GoalKeeper</a>
@@ -292,30 +106,129 @@
 
         <!-- Header -->
         <header class="ex-header bg-gray">
-            <div class="container px-4 sm:px-8 xl:px-4">
-                <h1 class="xl:ml-24">US Calendar</h1>
+            <div class="container mx-auto px-4 sm:px-8 xl:max-w-6xl xl:px-4">
+                <h1 class="xl:ml-24">Product Roadmap</h1>
             </div> <!-- end of container -->
         </header> <!-- end of ex-header -->
         <!-- end of header -->
 
+
         <!-- Basic -->
         <div class="ex-basic-1 py-12">
-            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
-                <div>
-                    <div id='calendarList'></div>
+            <div class="container mx-auto px-4 sm:px-8 xl:max-w-5xl xl:px-12">
+                <div class="text-box my-12">
+                    <p class="p-large mb-4">Yes, Goalkeeper has goals. We, at watchingeagle.com, work constantly to achieve those goals. Here are those: </p>
+                </div> <!-- end of text-box -->
+
+                <h2 class="mb-4">1. More calendar types</h2>
+                <p class="mb-4"></p>
+                <p class="mb-12"></p>
+
+                <h2 class="mb-4">2. Better Terms & Condition focussed towards every user</h2>
+                <p class="mb-4"></p>
+                <p class="mb-6"></p>
+                <ul class="list-unstyled mb-6 space-y-2">
+                    <li class="flex">
+                        <i class="fas fa-square"></i>
+                        <div class="flex-1 ml-2">
+                            <strong></strong>
+                        </div>
+                    </li>
+                    <li class="flex">
+                        <i class="fas fa-square"></i>
+                        <div class="flex-1 ml-2">
+                            <strong></strong>
+                        </div>
+                    </li>
+                    <li class="flex">
+                        <i class="fas fa-square"></i>
+                        <div class="flex-1 ml-2">
+                            <strong></strong>
+                        </div>
+                    </li>
+                </ul>
+                <p class="mb-12"></p>
+
+                <h2 class="mb-4">3. Stronger privacy policy for every user</h2>
+                <p class="mb-12"></p>
+                <h3 class="mb-2"></h3>
+                <p class="mb-12"></p>
+                <h3 class="mb-2"></h3>
+                <p class="mb-6"></p>
+                <ul class="list-unstyled mb-12 space-y-2">
+                    <li class="flex">
+                        <i class="fas fa-square"></i>
+                        <div class="flex-1 ml-2"><strong></strong></div>
+                    </li>
+                    <li class="flex">
+                        <i class="fas fa-square"></i>
+                        <div class="flex-1 ml-2"><strong></strong></div>
+                    </li>
+                    <li class="flex">
+                        <i class="fas fa-square"></i>
+                        <div class="flex-1 ml-2"><strong></strong></div>
+                    </li>
+                    <li class="flex">
+                        <i class="fas fa-square"></i>
+                        <div class="flex-1 ml-2"><strong></strong></div>
+                    </li>
+                    <li class="flex">
+                        <i class="fas fa-square"></i><div class="flex-1 ml-2"><strong></strong></div>
+                    </li>
+                </ul>
+
+                <h2 class="mb-4">4. Responsive and faster Performance</h2>
+                <p class="mb-6"></p>
+                <ul class="list-unstyled mb-12 space-y-2">
+                    <li class="flex">
+                        <strong></strong>
+                        <div class="flex-1 ml-2">
+                            <strong></strong>
+                        </div>
+                    </li>
+                    <li class="flex">
+                        <strong></strong>
+                        <div class="flex-1 ml-2">
+                            <strong></strong>
+                        </div>
+                    </li>
+                    <li class="flex">
+                        <strong></strong>
+                        <div class="flex-1 ml-2">
+                            <strong></strong>
+                        </div>
+                    </li>
+                    <li class="flex">
+                        <strong></strong>
+                        <div class="flex-1 ml-2">
+                            <strong></strong>
+                        </div>
+                    </li>
+                    <li class="flex">
+                        <strong></strong>
+                        <div class="flex-1 ml-2">
+                            <strong></strong>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="text-box mb-12">
+                    <h3 class="mb-2"></h3>
+                    <p class="mb-4"></p>
                 </div>
-                <div class="xl:text-right">
-                    <div id='calendar'></div>
-                </div>
-            </div>
-        </div>
+                <!-- end of text-box -->
+                <p class="mb-12">
+                    </p>
+
+                <a class="btn-solid-reg mb-12" href="index.html#contact">Contact</a>
+            </div> <!-- end of container -->
+        </div> <!-- end of ex-basic-1 -->
         <!-- end of basic -->
 
         <!-- Footer -->
         <div class="footer">
-            <div class="container px-4 sm:px-8">
-                <h4 class="mb-8 lg:max-w-3xl lg:mx-auto">GoalKeeper is a product of watchingeagle.com and you can reach the team by filling the Contact Us form.
-                </h4>
+            <div class="container mx-auto px-4 sm:px-8 xl:max-w-6xl">
+                <h4 class="mb-8 lg:max-w-3xl lg:mx-auto">GoalKeeper is a product of watchingeagle.com and you can reach the team by filling the Contact Us form.</h4>
                 <div class="social-container">
                     <span class="fa-stack">
                         <a href="https://www.facebook.com/WatchingEagle.2022" target="_blank">
@@ -357,7 +270,6 @@
             </div> <!-- end of container -->
         </div> <!-- end of footer -->
         <!-- end of footer -->
-
 
         <!-- Copyright -->
         <div class="copyright">
