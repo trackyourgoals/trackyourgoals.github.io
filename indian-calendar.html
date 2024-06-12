@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="theme-color" content="#f1f9fc" />
+        <meta name="title" content="GoalKeeper - Watching Eagle" />
+        <meta name="description"
+                content="Take control of your life and achieve your goals. Set priorities, track progress, and manage goals effortlessly. Start making progress towards your dreams now!"
+        />
+        <meta name="keywords"
+                content="goals, track daily weekly monthly yearly lifetime goals, manage priority, time efficiency, goals progress"
+        />
+        <meta name="author" content="GoalKeeper - Watching Eagle" />
+
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:url" content="https://watchingeagle.com/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="GoalKeeper - Watching Eagle" />
+        <meta property="og:description"
+                content="Take control of your life and achieve your goals. Set priorities, track progress, and manage goals effortlessly. Start making progress towards your dreams now!"
+        />
+        <meta property="og:image" content="https://watchingeagle.com/ogimage/ogfacebook.png" />
+        <meta property="og:site_name" content="watchingeagle.com" />
+        <meta property="article:publisher" content="https://www.facebook.com/WatchingEagle.2022" />
+        <meta property="og:publish_date" content="2024-04-07T19:30:00+0530">
+        <meta property="og:site" content="https://watchingeagle.com" />
+
+        <meta property="twitter:card" content="https://watchingeagle.com/ogimage/ogtwitter.png" />
+        <meta property="twitter:domain" content="watchingeagle.com" />
+        <meta property="twitter:url" content="https://watchingeagle.com" />
+        <meta property="twitter:title" content="GoalKeeper - Watching Eagle" />
+        <meta property="twitter:description"
+                content="Take control of your life and achieve your goals. Set priorities, track progress, and manage goals effortlessly. Start making progress towards your dreams now!"
+        />
+        <meta property="twitter:image" content="https://watchingeagle.com/ogimage/ogtwitter.png" />
+        <meta name="twitter:creator" content="@GoalKeeper-WatchingEagle" />
+
+        <!-- Webpage Title -->
+        <title>Indian Calendar - GoalKeeper</title>
+
+        <!-- Styles -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Forum&family=Zeyada&display=swap" rel="stylesheet">
+        <link href="css/fontawesome-all.css" rel="stylesheet" />
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+        <link href="css/swiper.css" rel="stylesheet" />
+        <link href="css/magnific-popup.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+
+        <!-- Favicon  -->
+        <link rel="icon" href="images/favicon.png" />
+        <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.14/index.global.min.js'></script>
+        <script>
+
+            document.addEventListener('DOMContentLoaded', function() {
+                var calendarEl = document.getElementById('calendar');
+                var calendar = new FullCalendar.Calendar(calendarEl, {
+                    initialView: 'dayGridMonth',
+                    headerToolbar: {
+                        left: 'prev today',
+                        center: 'title',
+                        right: 'next'
+                    },
+                    events: [
+                        {
+                            "title": "New Year's Day",
+                            "date": "2024-01-01",
+                            "start1": "जनवरी 1, 2024, सोमवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Lohri",
+                            "date": "2024-01-13",
+                            "start1": "जनवरी 13, 2024, सोमवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Makar Sankranti",
+                            "date": "2024-01-14",
+                            "start1": "जनवरी 14, 2024, रविवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Magha Bihu/ Pongal",
+                            "date": "2024-01-15",
+                            "start1": "जनवरी 15, 2024, सोमवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Guru Gobind Singh's Birthday",
+                            "date": "2024-01-17",
+                            "start1": "जनवरी 17, 2024, बुधवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Hazarat Ali's Birthday",
+                            "date": "2024-01-25",
+                            "start1": "जनवरी 25, 2024, बृहस्पतिवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Republic Day",
+                            "date": "2024-01-26",
+                            "start1": "जनवरी 26, 2024, शुक्रवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Basant Panchami / Sri Panchami",
+                            "date": "2024-02-14",
+                            "start1": "फरवरी 14, 2024, बुधवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Shivaji Jayanti",
+                            "date": "2024-02-19",
+                            "start1": "फरवरी 19, 2024, सोमवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Guru Ravidas's Birthday",
+                            "date": "2024-02-24",
+                            "start1": "फरवरी 24, 2024, शनिवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Chaitra Sukladi/ Gudi Padava/ Ugadi/ Cheti Chand",
+                            "date": "2024-03-06",
+                            "start1": "मार्च 6, 2024, बुधवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Maha Shivaratri",
+                            "date": "2024-03-08",
+                            "start1": "मार्च 8, 2024, शुक्रवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Holika Dahan",
+                            "date": "2024-03-24",
+                            "start1": "मार्च 24, 2024, रविवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Holi",
+                            "date": "2024-03-25",
+                            "start1": "मार्च 25, 2024, सोमवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Dolyatra",
+                            "date": "2024-03-25",
+                            "start1": "मार्च 25, 2024, सोमवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Good Friday",
+                            "date": "2024-03-29",
+                            "start1": "मार्च 29, 2024, शुक्रवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Easter Sunday",
+                            "date": "2024-03-31",
+                            "start1": "मार्च 31, 2024, रविवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Jamat-Ul-Vida",
+                            "date": "2024-04-05",
+                            "start1": "अप्रैल 5, 2024, शुक्रवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Chaitra Sukladi/ Gudi Padava/ Ugadi/ Cheti Chand",
+                            "date": "2024-04-09",
+                            "start1": "अप्रैल 9, 2024, मंगलवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Id-ul- Fitr",
+                            "date": "2024-04-11",
+                            "start1": "अप्रैल 11, 2024, बृहस्पतिवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Vaisakhi/ Vishu",
+                            "date": "2024-04-13",
+                            "start1": "अप्रैल 13, 2024, शनिवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Meshadi (Tamil New Year's Day) / Vaisakhadi (Bengal)/ Bahag Bihu (Assam)",
+                            "date": "2024-04-14",
+                            "start1": "अप्रैल 14, 2024, रविवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Ram Navami",
+                            "date": "2024-04-17",
+                            "start1": "अप्रैल 17, 2024, बुधवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Mahavir Jayanti",
+                            "date": "2024-04-21",
+                            "start1": "अप्रैल 21, 2024, रविवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Guru Rabindranath's Birthday",
+                            "date": "2024-05-08",
+                            "start1": "मई 8, 2024, बुधवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Buddha Purnima",
+                            "date": "2024-05-23",
+                            "start1": "मई 23, 2024, बृहस्पतिवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Id-ul-Zuha (Bakrid)",
+                            "date": "2024-06-17",
+                            "start1": "जून 17, 2024, सोमवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Rath Yatra",
+                            "date": "2024-07-07",
+                            "start1": "जुलाई 7, 2024, रविवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Muharram",
+                            "date": "2024-07-17",
+                            "start1": "जुलाई 17, 2024, बुधवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Independence Day",
+                            "date": "2024-08-15",
+                            "start1": "अगस्त 15, 2024, बृहस्पतिवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Parsi New Year's day / Nauraj",
+                            "date": "2024-08-15",
+                            "start1": "अगस्त 15, 2024, बृहस्पतिवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Raksha Bandhan",
+                            "date": "2024-08-19",
+                            "start1": "अगस्त 19, 2024, सोमवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Janmashtami (Vaishnva)",
+                            "date": "2024-08-26",
+                            "start1": "अगस्त 26, 2024, सोमवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Ganesh Chaturthi / Vinayaka Chaturthi",
+                            "date": "2024-09-07",
+                            "start1": "सितम्बर 7, 2024, शनिवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Onam or Thiru Onam Day",
+                            "date": "2024-09-15",
+                            "start1": "सितम्बर 15, 2024, रविवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Milad-un-Nabi or Id-e-Milad (Birthday of Prophet Mohammad)",
+                            "date": "2024-09-16",
+                            "start1": "सितम्बर 16, 2024, सोमवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Mahatma Gandhi's Birthday",
+                            "date": "2024-10-02",
+                            "start1": "अक्टूबर 2, 2024, बुधवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Dussehra (Maha Saptami)",
+                            "date": "2024-10-10",
+                            "start1": "अक्टूबर 10, 2024, बृहस्पतिवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Dussehra (Maha Ashtami) / Dussehra (Maha Navmi)",
+                            "date": "2024-10-11",
+                            "start1": "अक्टूबर 11, 2024, शुक्रवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Dussehra",
+                            "date": "2024-10-12",
+                            "start1": "अक्टूबर 12, 2024, शनिवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Maharishi Valmiki's Birthday",
+                            "date": "2024-10-17",
+                            "start1": "अक्टूबर 17, 2024, बृहस्पतिवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Karaka Chaturthi (Karva Chouth)",
+                            "date": "2024-10-20",
+                            "start1": "अक्टूबर 20, 2024, रविवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Diwali (Deepawali)",
+                            "date": "2024-10-31",
+                            "start1": "अक्टूबर 31, 2024, बृहस्पतिवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Naraka Chaturdasi",
+                            "date": "2024-10-31",
+                            "start1": "अक्टूबर 31, 2024, बृहस्पतिवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Govardhan Puja",
+                            "date": "2024-11-02",
+                            "start1": "नवम्बर 2, 2024, शनिवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Bhai Duj",
+                            "date": "2024-11-03",
+                            "start1": "नवम्बर 3, 2024, रविवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Pratihar Sashthi or Surya Sashthi (Chhat Puja)",
+                            "date": "2024-11-07",
+                            "start1": "नवम्बर 7, 2024, बृहस्पतिवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Guru Nanak's Birthday",
+                            "date": "2024-11-15",
+                            "start1": "नवम्बर 15, 2024, शुक्रवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Guru Teg Bahadur's Martyrdom Day",
+                            "date": "2024-11-24",
+                            "start1": "नवम्बर 24, 2024, रविवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Christmas Eve",
+                            "date": "2024-12-24",
+                            "start1": "दिसम्बर 24, 2024, मंगलवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Christmas Day",
+                            "date": "2024-12-25",
+                            "start1": "दिसम्बर 25, 2024, बुधवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        }
+                    ]
+                });
+                calendar.render();
+
+                var calendarListEl = document.getElementById('calendarList');
+                var calendarList = new FullCalendar.Calendar(calendarListEl, {
+                    initialView: 'listMonth',
+                    headerToolbar: {
+                        left: 'prev today',
+                        center: 'title',
+                        right: 'next'
+                    },
+                    events: [
+                        {
+                            "title": "New Year's Day",
+                            "date": "2024-01-01",
+                            "start1": "जनवरी 1, 2024, सोमवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Lohri",
+                            "date": "2024-01-13",
+                            "start1": "जनवरी 13, 2024, सोमवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Makar Sankranti",
+                            "date": "2024-01-14",
+                            "start1": "जनवरी 14, 2024, रविवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Magha Bihu/ Pongal",
+                            "date": "2024-01-15",
+                            "start1": "जनवरी 15, 2024, सोमवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Guru Gobind Singh's Birthday",
+                            "date": "2024-01-17",
+                            "start1": "जनवरी 17, 2024, बुधवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Hazarat Ali's Birthday",
+                            "date": "2024-01-25",
+                            "start1": "जनवरी 25, 2024, बृहस्पतिवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Republic Day",
+                            "date": "2024-01-26",
+                            "start1": "जनवरी 26, 2024, शुक्रवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Basant Panchami / Sri Panchami",
+                            "date": "2024-02-14",
+                            "start1": "फरवरी 14, 2024, बुधवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Shivaji Jayanti",
+                            "date": "2024-02-19",
+                            "start1": "फरवरी 19, 2024, सोमवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Guru Ravidas's Birthday",
+                            "date": "2024-02-24",
+                            "start1": "फरवरी 24, 2024, शनिवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Chaitra Sukladi/ Gudi Padava/ Ugadi/ Cheti Chand",
+                            "date": "2024-03-06",
+                            "start1": "मार्च 6, 2024, बुधवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Maha Shivaratri",
+                            "date": "2024-03-08",
+                            "start1": "मार्च 8, 2024, शुक्रवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Holika Dahan",
+                            "date": "2024-03-24",
+                            "start1": "मार्च 24, 2024, रविवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Holi",
+                            "date": "2024-03-25",
+                            "start1": "मार्च 25, 2024, सोमवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Dolyatra",
+                            "date": "2024-03-25",
+                            "start1": "मार्च 25, 2024, सोमवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Good Friday",
+                            "date": "2024-03-29",
+                            "start1": "मार्च 29, 2024, शुक्रवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Easter Sunday",
+                            "date": "2024-03-31",
+                            "start1": "मार्च 31, 2024, रविवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Jamat-Ul-Vida",
+                            "date": "2024-04-05",
+                            "start1": "अप्रैल 5, 2024, शुक्रवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Chaitra Sukladi/ Gudi Padava/ Ugadi/ Cheti Chand",
+                            "date": "2024-04-09",
+                            "start1": "अप्रैल 9, 2024, मंगलवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Id-ul- Fitr",
+                            "date": "2024-04-11",
+                            "start1": "अप्रैल 11, 2024, बृहस्पतिवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Vaisakhi/ Vishu",
+                            "date": "2024-04-13",
+                            "start1": "अप्रैल 13, 2024, शनिवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Meshadi (Tamil New Year's Day) / Vaisakhadi (Bengal)/ Bahag Bihu (Assam)",
+                            "date": "2024-04-14",
+                            "start1": "अप्रैल 14, 2024, रविवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Ram Navami",
+                            "date": "2024-04-17",
+                            "start1": "अप्रैल 17, 2024, बुधवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Mahavir Jayanti",
+                            "date": "2024-04-21",
+                            "start1": "अप्रैल 21, 2024, रविवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Guru Rabindranath's Birthday",
+                            "date": "2024-05-08",
+                            "start1": "मई 8, 2024, बुधवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Buddha Purnima",
+                            "date": "2024-05-23",
+                            "start1": "मई 23, 2024, बृहस्पतिवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Id-ul-Zuha (Bakrid)",
+                            "date": "2024-06-17",
+                            "start1": "जून 17, 2024, सोमवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Rath Yatra",
+                            "date": "2024-07-07",
+                            "start1": "जुलाई 7, 2024, रविवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Muharram",
+                            "date": "2024-07-17",
+                            "start1": "जुलाई 17, 2024, बुधवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Independence Day",
+                            "date": "2024-08-15",
+                            "start1": "अगस्त 15, 2024, बृहस्पतिवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Parsi New Year's day / Nauraj",
+                            "date": "2024-08-15",
+                            "start1": "अगस्त 15, 2024, बृहस्पतिवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Raksha Bandhan",
+                            "date": "2024-08-19",
+                            "start1": "अगस्त 19, 2024, सोमवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Janmashtami (Vaishnva)",
+                            "date": "2024-08-26",
+                            "start1": "अगस्त 26, 2024, सोमवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Ganesh Chaturthi / Vinayaka Chaturthi",
+                            "date": "2024-09-07",
+                            "start1": "सितम्बर 7, 2024, शनिवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Onam or Thiru Onam Day",
+                            "date": "2024-09-15",
+                            "start1": "सितम्बर 15, 2024, रविवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Milad-un-Nabi or Id-e-Milad (Birthday of Prophet Mohammad)",
+                            "date": "2024-09-16",
+                            "start1": "सितम्बर 16, 2024, सोमवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Mahatma Gandhi's Birthday",
+                            "date": "2024-10-02",
+                            "start1": "अक्टूबर 2, 2024, बुधवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Dussehra (Maha Saptami)",
+                            "date": "2024-10-10",
+                            "start1": "अक्टूबर 10, 2024, बृहस्पतिवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Dussehra (Maha Ashtami) / Dussehra (Maha Navmi)",
+                            "date": "2024-10-11",
+                            "start1": "अक्टूबर 11, 2024, शुक्रवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Dussehra",
+                            "date": "2024-10-12",
+                            "start1": "अक्टूबर 12, 2024, शनिवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Maharishi Valmiki's Birthday",
+                            "date": "2024-10-17",
+                            "start1": "अक्टूबर 17, 2024, बृहस्पतिवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Karaka Chaturthi (Karva Chouth)",
+                            "date": "2024-10-20",
+                            "start1": "अक्टूबर 20, 2024, रविवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Diwali (Deepawali)",
+                            "date": "2024-10-31",
+                            "start1": "अक्टूबर 31, 2024, बृहस्पतिवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Naraka Chaturdasi",
+                            "date": "2024-10-31",
+                            "start1": "अक्टूबर 31, 2024, बृहस्पतिवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Govardhan Puja",
+                            "date": "2024-11-02",
+                            "start1": "नवम्बर 2, 2024, शनिवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Bhai Duj",
+                            "date": "2024-11-03",
+                            "start1": "नवम्बर 3, 2024, रविवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Pratihar Sashthi or Surya Sashthi (Chhat Puja)",
+                            "date": "2024-11-07",
+                            "start1": "नवम्बर 7, 2024, बृहस्पतिवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Guru Nanak's Birthday",
+                            "date": "2024-11-15",
+                            "start1": "नवम्बर 15, 2024, शुक्रवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        },
+                        {
+                            "title": "Guru Teg Bahadur's Martyrdom Day",
+                            "date": "2024-11-24",
+                            "start1": "नवम्बर 24, 2024, रविवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Christmas Eve",
+                            "date": "2024-12-24",
+                            "start1": "दिसम्बर 24, 2024, मंगलवार",
+                            "description": "Restricted",
+                            "color": "red"
+                        },
+                        {
+                            "title": "Christmas Day",
+                            "date": "2024-12-25",
+                            "start1": "दिसम्बर 25, 2024, बुधवार",
+                            "description": "Gazetted",
+                            "color": "green"
+                        }
+                    ]
+                });
+                calendarList.render();
+            });
+
+        </script>
+    </head>
+    <body data-spy="scroll" data-target=".fixed-top">
+
+        <!-- Navigation -->
+        <nav class="navbar fixed-top">
+            <div class="container flex flex-wrap items-center justify-between sm:px-4 lg:flex-nowrap lg:px-8">
+
+                <!-- Text Logo - Use this if you don't have a graphic logo -->
+                <a class="text-gray-800 font-semibold text-3xl leading-4 no-underline page-scroll textLogo" href="index.html">GoalKeeper</a>
+
+                <!-- Image Logo -->
+                <!--<a class="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline" href="index.html">
+                    <img src="images/logo.svg" alt="alternative" class="h-8"/>
+                </a>-->
+
+                <button class="background-transparent rounded text-xl leading-none hover:no-underline focus:no-underline lg:hidden lg:text-gray-400" type="button" data-toggle="offcanvas">
+                    <span class="navbar-toggler-icon inline-block w-8 h-8 align-middle"></span>
+                </button>
+
+                <div class="navbar-collapse offcanvas-collapse lg:flex lg:flex-grow lg:items-center" id="navbarsExampleDefault">
+                    <ul class="pl-0 mt-3 mb-2 ml-auto flex flex-col list-none lg:mt-0 lg:mb-0 lg:flex-row">
+                        <li>
+                            <a class="nav-link page-scroll" href="index.html#header">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li>
+                            <a class="nav-link page-scroll" href="index.html#features">Features</a>
+                        </li>
+                        <li>
+                            <a class="nav-link page-scroll" href="index.html#details">Details</a>
+                        </li>
+                        <li>
+                            <a class="nav-link page-scroll" href="index.html#pricing">Pricing</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Calendars</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                <a class="dropdown-item page-scroll" href="indian-calendar.html">Indian Calendar</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item page-scroll" href="panchangam.html">Panchangam</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item page-scroll" href="us-calendar.html">US Calendar</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="nav-link page-scroll" href="index.html#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div> <!-- end of navbar-collapse -->
+            </div> <!-- end of container -->
+        </nav> <!-- end of navbar -->
+        <!-- end of navigation -->
+
+
+        <!-- Header -->
+        <header class="ex-header bg-gray">
+            <div class="container px-4 sm:px-8 xl:px-4">
+                <h1 class="xl:ml-24">Calendar</h1>
+            </div> <!-- end of container -->
+        </header> <!-- end of ex-header -->
+        <!-- end of header -->
+
+        <!-- Basic -->
+        <div class="ex-basic-1 py-12">
+            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
+                <div>
+                    <div id='calendarList'></div>
+                </div>
+                <div class="xl:text-right">
+                    <div id='calendar'></div>
+                </div>
+            </div>
+        </div>
+        <!-- end of basic -->
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="container px-4 sm:px-8">
+                <h4 class="mb-8 lg:max-w-3xl lg:mx-auto">GoalKeeper is a product of watchingeagle.com and you can reach the team by filling the Contact Us form.
+                </h4>
+                <div class="social-container">
+                    <span class="fa-stack">
+                        <a href="https://www.facebook.com/WatchingEagle.2022" target="_blank">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-facebook-f fa-stack-1x"></i>
+                        </a>
+                    </span>
+                    <!--<span class="fa-stack">
+                        <a href="#your-link">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-twitter fa-stack-1x"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack">
+                        <a href="#your-link">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                        </a>
+                    </span>-->
+                    <span class="fa-stack">
+                        <a href="https://www.instagram.com/watching_eagle9/" target="_blank">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-instagram fa-stack-1x"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack">
+                        <a href="https://www.linkedin.com/company/watching-eagle/" target="_blank">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-linkedin fa-stack-1x"></i>
+                        </a>
+                    </span>
+                    <!--<span class="fa-stack">
+                        <a href="#your-link">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-youtube fa-stack-1x"></i>
+                        </a>
+                    </span>-->
+                </div> <!-- end of social-container -->
+            </div> <!-- end of container -->
+        </div> <!-- end of footer -->
+        <!-- end of footer -->
+
+
+        <!-- Copyright -->
+        <div class="copyright">
+            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-3">
+                <ul class="mb-4 list-unstyled p-small">
+                    <li class="mb-2"><a href="terms.html">Terms & Conditions</a></li>
+                    <li class="mb-2"><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+                <p class="pb-2 p-small statement">Copyright © <a href="#your-link" class="no-underline">watchingeagle.com</a></p>
+
+                <p class="pb-2 p-small statement">Since : <a href="https://watchingeagle.com/" class="no-underline">2023</a></p>
+            </div> 
+        </div>
+
+        <!-- Scripts -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/swiper.min.js"></script>
+        <script src="js/jquery.magnific-popup.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
