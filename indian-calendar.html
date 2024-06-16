@@ -797,6 +797,17 @@
             });
 
         </script>
+        <script>
+            function updateVisitorCount() {
+                var xhr = new XMLHttpRequest();
+                xhr.open("POST", "https://watchingeagle-s07102n4.b4a.run/api/v1/user/counter", true);
+                xhr.setRequestHeader('Content-Type', 'application/json');
+                xhr.send(JSON.stringify({
+                    rSystemTime: new Date().toString(),
+                    rPageAccessed: 'indian-calendar.html'
+                }));
+            }
+        </script>
     </head>
     <body data-spy="scroll" data-target=".fixed-top">
 
