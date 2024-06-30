@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+    <meta content="#f1f9fc" name="theme-color"/>
+    <meta content="GoalKeeper - Watching Eagle" name="title"/>
+    <meta content="Take control of your life and achieve your goals. Set priorities, track progress, and manage goals effortlessly. Start making progress towards your dreams now!"
+          name="description"
+    />
+    <meta content="goals, track daily weekly monthly yearly lifetime goals, manage priority, time efficiency, goals progress"
+          name="keywords"
+    />
+    <meta content="GoalKeeper - Watching Eagle" name="author"/>
+
+    <meta content="en_US" property="og:locale"/>
+    <meta content="https://watchingeagle.com/" property="og:url"/>
+    <meta content="website" property="og:type"/>
+    <meta content="GoalKeeper - Watching Eagle" property="og:title"/>
+    <meta content="Take control of your life and achieve your goals. Set priorities, track progress, and manage goals effortlessly. Start making progress towards your dreams now!"
+          property="og:description"
+    />
+    <meta content="https://watchingeagle.com/ogimage/ogfacebook.png" property="og:image"/>
+    <meta content="watchingeagle.com" property="og:site_name"/>
+    <meta content="https://www.facebook.com/WatchingEagle.2022" property="article:publisher"/>
+    <meta content="2024-04-07T19:30:00+0530" property="og:publish_date">
+    <meta content="https://watchingeagle.com" property="og:site"/>
+
+    <meta content="https://watchingeagle.com/ogimage/ogtwitter.png" property="twitter:card"/>
+    <meta content="watchingeagle.com" property="twitter:domain"/>
+    <meta content="https://watchingeagle.com" property="twitter:url"/>
+    <meta content="GoalKeeper - Watching Eagle" property="twitter:title"/>
+    <meta content="Take control of your life and achieve your goals. Set priorities, track progress, and manage goals effortlessly. Start making progress towards your dreams now!"
+          property="twitter:description"
+    />
+    <meta content="https://watchingeagle.com/ogimage/ogtwitter.png" property="twitter:image"/>
+    <meta content="@GoalKeeper-WatchingEagle" name="twitter:creator"/>
+
+    <!-- Webpage Title -->
+    <title>GoalKeeper : Watching Eagle</title>
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Zeyada&display=swap" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet"/>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"/>
+    <link href="css/swiper.css" rel="stylesheet"/>
+    <link href="css/magnific-popup.css" rel="stylesheet"/>
+    <link href="css/styles.css" rel="stylesheet"/>
+
+    <!-- Favicon  -->
+    <link href="images/favicon.png" rel="icon"/>
+    <script>
+        function updateClock() {
+            const dateElement = document.getElementById('systemDate');
+            const timeElement = document.getElementById('systemTime');
+            timeElement.innerHTML = new Date().toLocaleTimeString();
+            dateElement.innerHTML = new Date().toLocaleDateString();
+        }
+        setInterval(updateClock, 1000);
+
+        function updateVisitorCount() {
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "https://watchingeagle-s07102n4.b4a.run/api/v1/user/counter", true);
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.send(JSON.stringify({
+                rSystemTime: new Date().toString(),
+                rPageAccessed: 'dashboard.html'
+            }));
+        }
+    </script>
+</head>
+<body data-spy="scroll" data-target=".fixed-top" onload="updateVisitorCount()">
+
+<!-- Navigation -->
+<nav class="navbar fixed-top">
+    <div class="container flex flex-wrap items-center justify-between sm:px-4 lg:flex-nowrap lg:px-8">
+
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <a class="text-gray-800 font-semibold text-3xl leading-4 no-underline page-scroll textLogo" href="index.html">GoalKeeper</a>
+
+        <!-- Image Logo -->
+        <!--<a class="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline" href="index.html">
+            <img src="images/logo.svg" alt="alternative" class="h-8"/>
+        </a>-->
+
+        <button class="background-transparent rounded text-xl leading-none hover:no-underline focus:no-underline lg:hidden lg:text-gray-400"
+                data-toggle="offcanvas" type="button">
+            <span class="navbar-toggler-icon inline-block w-8 h-8 align-middle"></span>
+        </button>
+
+        <div class="navbar-collapse offcanvas-collapse lg:flex lg:flex-grow lg:items-center" id="navbarsExampleDefault">
+            <ul class="pl-0 mt-3 mb-2 ml-auto flex flex-col list-none lg:mt-0 lg:mb-0 lg:flex-row">
+                <li>
+                    <a class="nav-link page-scroll" href="index.html#header">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li>
+                    <a class="nav-link page-scroll" href="chhath-mahavaparv-2024.html">Blogs</a>
+                </li>
+                <li>
+                    <a class="nav-link page-scroll" href="index.html#pricing">Pricing</a>
+                </li>
+                <li class="dropdown">
+                    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle"
+                       data-toggle="dropdown" href="#" id="dropdown01">Calendars</a>
+                    <div aria-labelledby="dropdown01" class="dropdown-menu">
+                        <a class="dropdown-item page-scroll" href="indian-calendar.html">Indian Calendar</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item page-scroll" href="panchangam.html">Panchangam</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item page-scroll" href="us-calendar.html">US Calendar</a>
+                    </div>
+                </li>
+                <li>
+                    <a class="nav-link page-scroll" href="index.html#contact">Contact</a>
+                </li>
+            </ul>
+        </div> <!-- end of navbar-collapse -->
+    </div> <!-- end of container -->
+</nav> <!-- end of navbar -->
+<!-- end of navigation -->
+
+
+<section class="relative px-5 md:px-10">
+  <!-- Container -->
+  <div class="mx-auto w-full max-w-7xl py-16 md:py-24 lg:py-32">
+    <!-- Component -->
+    <div class="grid grid-cols-1 items-center gap-8 sm:gap-20 lg:grid-cols-2">
+      <!-- Header Content -->
+      <div class="relative">
+        <img src="images/test.png" alt="CTA Card Image" class="mx-auto inline-block h-full w-full max-w-[640px] rounded-2xl object-cover" />
+          <h3 class="absolute text-2xl text-green-300 top-5 left-5" id="systemDate"></h3>
+          <h3 class="absolute text-2xl text-green-300 top-5 right-5" id="systemTime"></h3>
+          <h3 class="absolute text-2xl text-green-300 bottom-5 left-5">Travelling to Deoghar<br/>15th July - 18th July 11a.m.</h3>
+      </div>
+      <div class="max-w-[720px]">
+        <h2 class="mb-4 mt-6 pb-4 text-4xl font-bold text-white md:text-6xl">Have a Good day, <br/>Nikhil</h2>
+        <p class="mb-6 max-w-[480px] text-[#aeaeae] md:mb-10 lg:mb-12">Fuel your days with the boundless enthusiasm of a lifelong explorer.</p>
+          <div>
+              <form class="m-4 flex">
+                  <input class="rounded-l-lg p-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white" placeholder="I want to..."/>
+                  <button class="px-8 rounded-r-lg bg-yellow-400  text-gray-800 font-bold p-4 uppercase border-yellow-500 border-t border-b border-r">Subscribe</button>
+              </form>
+          </div>
+        <a href="#" class="inline-block rounded-full bg-[#c9fd02] px-6 py-4 text-center font-bold text-black transition hover:border-black hover:bg-white">Get started</a>
+      </div>
+      <!-- Image Div -->
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<div class="footer">
+    <div class="container px-4 sm:px-8">
+        <h4 class="mb-8 lg:max-w-3xl lg:mx-auto">GoalKeeper is a product of watchingeagle.com and you can reach the team
+            by filling the Contact Us form.</h4>
+        <div class="social-container">
+                    <span class="fa-stack">
+                        <a href="https://www.facebook.com/WatchingEagle.2022" target="_blank">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-facebook-f fa-stack-1x"></i>
+                        </a>
+                    </span>
+            <!--<span class="fa-stack">
+                <a href="#your-link">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x"></i>
+                </a>
+            </span>
+            <span class="fa-stack">
+                <a href="#your-link">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                </a>
+            </span>-->
+            <span class="fa-stack">
+                        <a href="https://www.instagram.com/watching_eagle9/" target="_blank">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-instagram fa-stack-1x"></i>
+                        </a>
+                    </span>
+            <span class="fa-stack">
+                        <a href="https://www.linkedin.com/company/watching-eagle/" target="_blank">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-linkedin fa-stack-1x"></i>
+                        </a>
+                    </span>
+            <!--<span class="fa-stack">
+                <a href="#your-link">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x"></i>
+                </a>
+            </span>-->
+        </div> <!-- end of social-container -->
+    </div> <!-- end of container -->
+</div> <!-- end of footer -->
+<!-- end of footer -->
+
+
+<!-- Copyright -->
+<div class="copyright">
+    <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-3">
+        <ul class="mb-4 list-unstyled p-small">
+            <li class="mb-2"><a href="terms.html">Terms & Conditions</a></li>
+            <li class="mb-2"><a href="privacy.html">Privacy Policy</a></li>
+            <li class="mb-2"><a href="product-roadmap.html">Product Roadmap</a></li>
+        </ul>
+        <p class="pb-2 p-small statement">Copyright © <a class="no-underline" href="#your-link">watchingeagle.com</a>
+        </p>
+
+        <p class="pb-2 p-small statement">Since : <a class="no-underline" href="https://watchingeagle.com/">2022</a></p>
+    </div>
+</div>
+
+<!-- Scripts -->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/jquery.magnific-popup.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
