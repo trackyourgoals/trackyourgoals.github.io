@@ -1,0 +1,16 @@
+[
+  {
+    "fish_img":"1.jpg",
+    "fish_name":"Indian Mackerel",
+    "cat_name":"Marine Fish",
+    "size_name":"medium",
+    "price":"100"    
+  },
+  {
+    "fish_img":"2.jpg",
+    "fish_name":"Manthal Repti",
+    "cat_name":"Marine Fish",
+    "size_name":"small",
+    "price":"200"
+  }
+]
