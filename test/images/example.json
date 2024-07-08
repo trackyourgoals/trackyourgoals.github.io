@@ -68,5 +68,19 @@
     "cat_name":"Shell Fish",
     "size_name":"Small",
     "price":"800"
+  },
+  {
+    "fish_img":"5.jpg",
+    "fish_name":"Squid",
+    "cat_name":"Shell Fish",
+    "size_name":"Small",
+    "price":"800"
+  },
+  {
+    "fish_img":"5.jpg",
+    "fish_name":"Squid",
+    "cat_name":"Shell Fish",
+    "size_name":"Small",
+    "price":"800"
   }
 ]
