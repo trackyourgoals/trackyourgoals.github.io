@@ -1,83 +1,34 @@
 [
   {
-    "fish_img":"1.jpg",
+    "fish_img":"travel.png",
     "fish_name":"Indian Mackerel",
     "cat_name":"Marine Fish",
     "size_name":"Medium",
     "price":"100"    
   },
   {
-    "fish_img":"2.jpg",
+    "fish_img":"travel.png",
     "fish_name":"Manthal Repti",
     "cat_name":"Marine Fish",
     "size_name":"Small",
     "price":"200"
   },
   {
-    "fish_img":"3.jpg",
+    "fish_img":"travel.png",
     "fish_name":"Baby Sole Fish",
     "cat_name":"Marine Fish",
     "size_name":"Small",
     "price":"600"
   },
   {
-    "fish_img":"4.jpg",
+    "fish_img":"travel.png",
     "fish_name":"Silver Pomfret",
     "cat_name":"Marine Fish",
     "size_name":"Large",
     "price":"300"
   },
   {
-    "fish_img":"5.jpg",
-    "fish_name":"Squid",
-    "cat_name":"Shell Fish",
-    "size_name":"Small",
-    "price":"800"
-  },
-  {
-    "fish_img":"1.jpg",
-    "fish_name":"Indian Mackerel",
-    "cat_name":"Marine Fish",
-    "size_name":"Medium",
-    "price":"100"    
-  },
-  {
-    "fish_img":"2.jpg",
-    "fish_name":"Manthal Repti",
-    "cat_name":"Marine Fish",
-    "size_name":"Small",
-    "price":"200"
-  },
-  {
-    "fish_img":"3.jpg",
-    "fish_name":"Baby Sole Fish",
-    "cat_name":"Marine Fish",
-    "size_name":"Small",
-    "price":"600"
-  },
-  {
-    "fish_img":"4.jpg",
-    "fish_name":"Silver Pomfret",
-    "cat_name":"Marine Fish",
-    "size_name":"Large",
-    "price":"300"
-  },
-  {
-    "fish_img":"5.jpg",
-    "fish_name":"Squid",
-    "cat_name":"Shell Fish",
-    "size_name":"Small",
-    "price":"800"
-  },
-  {
-    "fish_img":"5.jpg",
-    "fish_name":"Squid",
-    "cat_name":"Shell Fish",
-    "size_name":"Small",
-    "price":"800"
-  },
-  {
-    "fish_img":"5.jpg",
+    "fish_img":"travel.png",
     "fish_name":"Squid",
     "cat_name":"Shell Fish",
     "size_name":"Small",
