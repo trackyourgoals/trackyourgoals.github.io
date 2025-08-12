@@ -182,6 +182,17 @@
             overflow: hidden; /* Ensures no content spills out */
         }
     </style>
+    <script>
+        function updateVisitorCount() {
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "https://watchingeagle-s07102n4.b4a.run/api/v1/user/counter", true);
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.send(JSON.stringify({
+                rSystemTime: new Date().toString(),
+                rPageAccessed: 'm/2025/november.html'
+            }));
+        }
+    </script>
 </head>
 <body style="font-size:14px;font-weight:400;line-height:20px;font-family:Roboto, sans-serif;letter-spacing:.0178571429em">
 <div class="content" role="main">
