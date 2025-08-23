@@ -473,7 +473,7 @@ input[type="checkbox"] {
     transform: translateX(-100%);
 }
 
-.nav-link {
+.nav-link, .nav-link1 {
     display: block;
     padding-top: 0.625rem;
     padding-bottom: 0.625rem;
@@ -503,8 +503,8 @@ input[type="checkbox"] {
 }
 
 .dropdown.show > a,
-.nav-link:hover,
-.nav-link.active {
+.nav-link:hover, .nav-link1:hover,
+.nav-link.active, .nav-link1.active {
     color: #ff6e84;
     text-decoration: none;
 }
@@ -1046,7 +1046,7 @@ a:hover.back-to-top {
         transform: none;
     }
 
-    .nav-link {
+    .nav-link, .nav-link1 {
         padding-right: 0.625rem;
         padding-left: 0.625rem;
     }
