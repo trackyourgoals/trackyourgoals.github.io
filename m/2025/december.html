@@ -222,6 +222,15 @@
             }));
         }
     </script>
+    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+    <script>
+        window.OneSignalDeferred = window.OneSignalDeferred || [];
+        OneSignalDeferred.push(async function(OneSignal) {
+            await OneSignal.init({
+                appId: "093172e1-2661-4850-a6ac-3272efc212e8",
+            });
+        });
+    </script>
 </head>
 <body style="margin:0;font-size:14px;font-weight:400;line-height:20px;font-family:Roboto, sans-serif;letter-spacing:.0178571429em" onload="updateVisitorCount()">
 <div class="content" role="main">
